@@ -1,0 +1,18 @@
+button.button-toolbar.rewind {display: none;} 
+button.button-toolbar.next {display: none;}
+
+button.button-toolbar.home {order: 1}
+button.button-toolbar.back {order: 2;}
+button.button-toolbar.forward {order: 3;}
+
+.addressfield {order: 1;}
+.toolalt {
+	order: 2;
+	display: flex;
+	position: relative;
+}
+.iconmenu-container.searchfield {
+	order: 3;
+	margin-left: 5px;
+}
+.extensions-wrapper {order: 4;}
