@@ -19,7 +19,14 @@ If you are in Linux, you can clone this repo and run *vivaldiPatcher-Linux.sh*
 ./vivaldiPatcher-Linux.sh
 ```
 #### Manually
-Just go to *VIVALDI_INSTALLATION_FOLDER/resources/vivaldi/*, copy *custom.css* and *custom.js* into the folder. Make a backup of *browser.html* and then edit it.
+Go to Vivaldi installation folder
+* __Linux:__ */opt/vivaldi/resources/vivaldi*
+* __macOS:__ */Applications/Vivaldi.app/Contents/Versions/VERSION/Vivaldi/Framework.framework/Versions/A/Resources/vivaldi*
+* __Windows:__
+  * __User app:__ *C:\Users\USER\AppData\Local\Vivaldi\Application\VERSION\resources*
+  * __System app:__ *C:\Program Files\Vivaldi\Application\VERSION\resources*
+  
+Copy *custom.css* and *custom.js* into the folder. Make a backup of *browser.html* and then edit it.
 * Inside the head element add
 ```
 <link rel="stylesheet" href="custom.css" />
