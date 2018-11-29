@@ -125,7 +125,7 @@ if isTryingToUnpatch; then
 	if isVivaldiPatched; then
 		backUpBrowserHtml
 		unpatchVivaldi
-		echo -e "Vivaldi unpatched successfully"
+		echo "Vivaldi unpatched successfully"
 	else
 		echo "Vivaldi is not patched"
 	fi
@@ -136,6 +136,6 @@ else
 		checkModFilesPresent
 		backUpBrowserHtml
 		patchVivaldi
-	    echo -e "\nVivaldi patched successfully!"
+	    echo "Vivaldi patched successfully!"
 	fi
 fi
