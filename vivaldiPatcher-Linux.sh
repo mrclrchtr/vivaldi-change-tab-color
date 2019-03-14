@@ -7,6 +7,8 @@
 # Last Tested on Vivaldi 2.1.1337.51 on 2018-11-28
 ###############################################################
 
+cd "$(dirname "$0")"
+
 parameter=$1
 
 function isUserAskingForHelp() {
