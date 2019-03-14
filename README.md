@@ -1,22 +1,7 @@
-# Vivaldi Simple UI
-A more simple and comfortable UI layout for Vivaldi browser.
+# Vivaldi Change Tab Color
+Changes the tab color of the dark theme
 
-![Screenshot](Screenshot.png "Vivaldi Simple UI")
-
-## Features
-### Elements order
-1. Home Button
-2. Back Button
-3. Forward Button
-4. Address Bar
-5. Reload Button
-6. Search Bar
-7. Extensions Wrapper
-
-### Custom icons
-* Home button
-* Bigger Back and Forward buttons
-* Bookmarks button
+![Example](Example.png "Example")
 
 ### How to install
 #### Automatically (Linux only)
@@ -31,7 +16,7 @@ Go to Vivaldi installation folder
 * __Windows:__
   * __User app:__ *C:\Users\USER\AppData\Local\Vivaldi\Application\VERSION\resources*
   * __System app:__ *C:\Program Files\Vivaldi\Application\VERSION\resources*
-  
+
 Copy *custom.css* inside style subfolder and *custom.js* into the root installation folder. Make a backup of *browser.html* and then edit it.
 * Inside the head element add
 ```
