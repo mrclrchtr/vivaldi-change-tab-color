@@ -1,5 +1,6 @@
 # Vivaldi Change Tab Color
-Changes the tab color of the dark theme
+I think there is not enough difference between the active and not active tab coler of the dark theme in vivald.
+So this project changes the active tab color of the dark theme.
 
 [You can find the german description here](https://mrclrchtr.de/vivaldi-hintergrundfarbe-des-aktiven-tabs-aendern/)
 
