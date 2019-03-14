@@ -1,0 +1,10 @@
+# /usr/share/libalpm/hooks/vivaldi-patch.hook
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = vivaldi
+
+[Action]
+Description = Patch Vivaldi after install
+When = PostTransaction
+Exec = PLACEHOLDER
