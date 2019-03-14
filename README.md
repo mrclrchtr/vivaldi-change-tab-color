@@ -1,6 +1,8 @@
 # Vivaldi Change Tab Color
 Changes the tab color of the dark theme
 
+[You can find the german description here](https://mrclrchtr.de/vivaldi-hintergrundfarbe-des-aktiven-tabs-aendern/)
+
 ![Example](Example.png "Example")
 
 ### How to install
@@ -48,3 +50,15 @@ or
 ```
 ./vivaldiPatcher-Linux.sh --help
 ```
+
+# Extended version for Arch Linux
+After every update, you have to redo the steps above. To do this automatically, you can install a pacman hook (vivaldi-patch.hook) in arch.
+The install patch-patch-hook.sh does this automatically. You can run it with or without a destination directory:
+```
+./install-patch-hook.sh
+```
+or
+```
+./install-patch-hook.sh /path/to/install
+```
+Default is /opt/vivaldi-patch
