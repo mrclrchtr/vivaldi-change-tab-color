@@ -15,7 +15,7 @@ If you are in Linux, you can clone this repo and run *vivaldiPatcher-Linux.sh*
 #### Manually
 Go to Vivaldi installation folder
 * __Linux:__ */opt/vivaldi/resources/vivaldi*
-* __macOS:__ */Applications/Vivaldi.app/Contents/Frameworks/Vivaldi Framework.framework/Versions/2.6.1566.44/Resources/vivaldi*
+* __macOS:__ */Applications/Vivaldi.app/Contents/Frameworks/Vivaldi Framework.framework/Versions/VERSION/Resources/vivaldi*
 * __Windows:__
   * __User app:__ *C:\Users\USER\AppData\Local\Vivaldi\Application\VERSION\resources*
   * __System app:__ *C:\Program Files\Vivaldi\Application\VERSION\resources*
